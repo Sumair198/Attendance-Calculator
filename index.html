@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Attendance</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>Time Calculator</h1>
+        <form id="time-form">
+            <label for="check-in-time">Check-in Time:</label>
+            <input type="datetime-local" id="check-in-time" required>
+            <br><br>
+            <label for="check-out-time">Check-out Time:</label>
+            <input type="datetime-local" id="check-out-time" readonly>
+            <br><br>
+            <label for="remaining-time">Remaining Time:</label>
+            <input type="text" id="remaining-time" readonly>
+            <br><br>
+            <button id="calculate-btn">Calculate</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
